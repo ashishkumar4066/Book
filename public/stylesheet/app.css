@@ -69,18 +69,24 @@
       background: url("img1.jpg");
       background-size: cover;
       background-position: center;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
   }
   
   .img-2 {
       background: url("img4.jpg");
       background-size: cover;
       background-position: center;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
   }
   
   .img-3 {
       background: url("img3.jpg");
       background-size: cover;
       background-position: center;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
   }
   
   .quote-card:before {
