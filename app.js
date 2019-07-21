@@ -165,6 +165,4 @@ function isLoggedin1(req, res, next) {
     res.redirect('/');
 }
 // ==================================
-app.listen(3000, (req, res) => {
-    console.log('App listening to port 3000');
-})
+app.listen(process.env.PORT, process.env.IP);
